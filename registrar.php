@@ -6,7 +6,7 @@
 <body>
 <a href="index.php">Inicio</a> <br />
 <?php
-include("connection.php");
+include("conexion.php");
 
 if(isset($_POST['submit'])) {
 	$name = $_POST['nombre'];

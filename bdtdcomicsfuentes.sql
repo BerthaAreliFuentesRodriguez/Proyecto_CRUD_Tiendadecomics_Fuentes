@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-10-2023 a las 07:27:00
+-- Tiempo de generación: 30-10-2023 a las 00:44:30
 -- Versión del servidor: 10.4.27-MariaDB
 -- Versión de PHP: 8.2.0
 
@@ -39,6 +39,13 @@ CREATE TABLE `comics` (
   `login_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Volcado de datos para la tabla `comics`
+--
+
+INSERT INTO `comics` (`idcomic`, `nomcomic`, `autor`, `editorial`, `proveedor`, `tipo`, `genero`, `clasificacion`, `login_id`) VALUES
+(6, 'komi-san no puede comunicarse', 'tomohida', 'paninimanga', 'areli', 'manga', 'escolar, comedia romantica', 'b15', 3);
+
 -- --------------------------------------------------------
 
 --
@@ -52,6 +59,13 @@ CREATE TABLE `login` (
   `nomusuario` varchar(100) NOT NULL,
   `contrasena` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `login`
+--
+
+INSERT INTO `login` (`id`, `nombre`, `correo`, `nomusuario`, `contrasena`) VALUES
+(3, 'Bertha Areli', 'ara@gmail.com', 'areli', 'ff017a5ce41c0d40e07e8d45a6c9331d');
 
 --
 -- Índices para tablas volcadas
@@ -78,13 +92,13 @@ ALTER TABLE `login`
 -- AUTO_INCREMENT de la tabla `comics`
 --
 ALTER TABLE `comics`
-  MODIFY `idcomic` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `idcomic` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `login`
 --
 ALTER TABLE `login`
-  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Restricciones para tablas volcadas
