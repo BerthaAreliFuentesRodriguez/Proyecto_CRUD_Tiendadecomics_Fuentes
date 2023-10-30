@@ -26,7 +26,7 @@
 	}
 	?>
 	<div id="footer">
-		Created by <a href="http://blog.chapagain.com.np" title="Mukesh Chapagain">Mukesh Chapagain</a>
+		Creado por <a href="https://github.com/BerthaAreliFuentesRodriguez/Proyecto_CRUD_Tiendadecomics_Fuentes">Bertha Areli Fuentes Rodriguez</a>
 	</div>
 </body>
 </html>
