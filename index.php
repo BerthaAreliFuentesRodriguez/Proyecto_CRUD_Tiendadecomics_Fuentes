@@ -26,7 +26,7 @@
 	}
 	?>
 	<div id="footer">
-		Creado por <a href="https://github.com/BerthaAreliFuentesRodriguez/Proyecto_CRUD_Tiendadecomics_Fuentes">Bertha Areli Fuentes Rodriguez</a>
+		Creado por <a href="https://berthaarelifuentesrodriguez.github.io/FuentesB_WEB/index.html">Bertha Areli Fuentes Rodriguez</a>
 	</div>
 </body>
 </html>
